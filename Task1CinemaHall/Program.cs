@@ -4,9 +4,12 @@ string screeningType = null;
 const string premier = "premier";
 const string discount = "discount";
 const string normal = "normal";
-int rowNumber;
-int columnNumber;
+int rowNumber=0;
+int columnNumber=0;
 double pricePerTicket=0;
+bool isRowParsed = false;
+bool isColumnParsed = false;
+
 Console.WriteLine("Type of screening: ");
 
 while (screeningType != discount && screeningType != premier && screeningType != normal)
@@ -33,9 +36,32 @@ while (screeningType != discount && screeningType != premier && screeningType !=
 }
 
 Console.WriteLine("Row number: ");
-rowNumber = int.Parse(Console.ReadLine());
+
+while (!isRowParsed)
+{
+    string rowNumberInput = Console.ReadLine();
+    isRowParsed = int.TryParse(rowNumberInput, out rowNumber) && rowNumber > 0;
+    if (isRowParsed)
+    {
+        break;
+    }
+    
+    Console.WriteLine("Please enter a valid row number.");
+}
+
 Console.WriteLine("Column number: ");
-columnNumber = int.Parse(Console.ReadLine());
+
+while (!isColumnParsed)
+{
+    string columnNumberInput = Console.ReadLine();
+    isColumnParsed = int.TryParse(columnNumberInput, out columnNumber) && columnNumber > 0;
+    if (isColumnParsed)
+    {
+        break;
+    }
+    
+    Console.WriteLine("Please enter a valid column number.");
+}
 
 decimal result = Convert.ToDecimal(string.Format("{0:F2}", pricePerTicket * rowNumber * columnNumber));
 
