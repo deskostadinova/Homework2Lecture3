@@ -16,7 +16,8 @@ Console.WriteLine("Your budget: ");
 while (!isBudgetParsed)
 {
     string budgetInput = Console.ReadLine();
-    isBudgetParsed = int.TryParse(budgetInput, out groupBudget) && groupBudget > 0 && groupBudget <= 8000;
+    isBudgetParsed = int.TryParse(budgetInput, out groupBudget) && groupBudget > 0 
+                                                                && groupBudget <= 8000;
     if (isBudgetParsed)
     {
         break;
@@ -27,7 +28,8 @@ while (!isBudgetParsed)
 
 Console.WriteLine("Season: ");
 
-while (seasonName != "spring" && seasonName != "summer" && seasonName != "autumn" && seasonName != "winter")
+while (seasonName != "spring" && seasonName != "summer" && seasonName != "autumn" 
+                                                        && seasonName != "winter")
 {
     seasonName = Console.ReadLine().ToLower();
     switch (seasonName)
@@ -53,7 +55,8 @@ Console.WriteLine("Number of fishermen: ");
 
 while (!isFishermenNumberValid)
 {
-    isFishermenNumberValid = int.TryParse(Console.ReadLine(), out fishermen) && fishermen >= 4 && fishermen <= 18;
+    isFishermenNumberValid = int.TryParse(Console.ReadLine(), out fishermen) && fishermen >= 4 
+                                                                               && fishermen <= 18;
     if (!isFishermenNumberValid)
     {
         Console.WriteLine("Please, enter a valid number between 4 and 18: ");
