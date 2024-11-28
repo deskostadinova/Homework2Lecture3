@@ -74,7 +74,7 @@ while (!isFishermenNumberValid)
         break;
     }
 }
-Console.WriteLine($"Discount: {discount:F2}");
+Console.WriteLine($"Discount: {discount*100}%");
 rentalCost = rentalCost * (1 - discount);
 if (!(seasonName.Equals(autumn)) && fishermen % 2 == 0)
 {
