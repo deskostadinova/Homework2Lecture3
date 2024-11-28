@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2FishingTrip", "Task2Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3SalaryDeduction", "Task3SalaryDeduction\Task3SalaryDeduction.csproj", "{9C4FC2CD-A8DA-49B3-8CD2-3C24C8D6C602}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4StepsToReachAGol", "Task4StepsToReachAGol\Task4StepsToReachAGol.csproj", "{FE2FFCF4-0E1B-4719-9DF2-59A50FD88D92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{9C4FC2CD-A8DA-49B3-8CD2-3C24C8D6C602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C4FC2CD-A8DA-49B3-8CD2-3C24C8D6C602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C4FC2CD-A8DA-49B3-8CD2-3C24C8D6C602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2FFCF4-0E1B-4719-9DF2-59A50FD88D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2FFCF4-0E1B-4719-9DF2-59A50FD88D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2FFCF4-0E1B-4719-9DF2-59A50FD88D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2FFCF4-0E1B-4719-9DF2-59A50FD88D92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

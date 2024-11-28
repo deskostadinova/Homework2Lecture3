@@ -59,8 +59,8 @@ while (!isFishermenNumberValid)
                                                                                && fishermen <= 18;
     if (!isFishermenNumberValid)
     {
-        Console.WriteLine("Please, enter a valid number between 4 and 18: ");
-        continue;
+        Console.WriteLine("Please, enter a valid number between 4 and 18: "); 
+        
     } else if (fishermen >= 4 && fishermen <= 6)
     {
         discount = 0.1;
