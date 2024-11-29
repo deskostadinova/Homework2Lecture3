@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4StepsToReachAGol", "Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5BirthdayCake", "Task5BirthdayCake\Task5BirthdayCake.csproj", "{8774F288-B2F9-41C8-92D5-9DD2BB6009B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6PasswordGenerator", "Task6PasswordGenerator\Task6PasswordGenerator.csproj", "{C562CA1A-1AD0-4D36-9158-C656565ABD0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{8774F288-B2F9-41C8-92D5-9DD2BB6009B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8774F288-B2F9-41C8-92D5-9DD2BB6009B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8774F288-B2F9-41C8-92D5-9DD2BB6009B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C562CA1A-1AD0-4D36-9158-C656565ABD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C562CA1A-1AD0-4D36-9158-C656565ABD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C562CA1A-1AD0-4D36-9158-C656565ABD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C562CA1A-1AD0-4D36-9158-C656565ABD0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

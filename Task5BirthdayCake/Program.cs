@@ -45,9 +45,14 @@ while (eatenCakeCount < piecesCount)
     if (isNumber)
     {
         eatenCakeCount += piecesToAdd;
-        if (totalEatenPieces >= piecesCount)
+        if (totalEatenPieces > piecesCount)
         {
-            Console.WriteLine($"No more cake left! You need {totalEatenPieces - piecesCount} more");
+            Console.WriteLine($"No more cake left! You need {totalEatenPieces - piecesCount} more.");
+            break;
+        }
+        else if (totalEatenPieces == piecesCount)
+        {
+            Console.WriteLine("No more cake left!");
             break;
         }
         else
